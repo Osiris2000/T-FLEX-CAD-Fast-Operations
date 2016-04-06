@@ -20,11 +20,14 @@ C:\Program Files\T-FLEX CAD 14 x64\Program\Macros
 
 ENG
 ------
-For your own convenience, I wrote a simple macro that allows you to quickly perform Boolean operations between two (so far) were selected in the bodies of 3D-window.
+For your own convenience, I wrote a simple macro that allows you to quickly perform Boolean operations between two (so far) bodies that were selected in 3D-window.
+
 How to use: select the two bodies in the 3D window, pressing the button that launches the macro.
+
 Besides the three basic operations, I also added a fourth, which he called "Volume Separation". This is a complex Boolean operations, including the subtraction and intersection (originally it was this operation, I would like to implement).
-Currently, all operations (besides Boolean Addition) using only the first two selected bodys.
-Boolean Addition operation works with all selected bodies. The first body selected is the first operand, and the rest of the bodys - as a second.
+
+Currently, all operations (besides Boolean Addition) work with the first two selected bodies only.
+Boolean Addition operation works with all selected bodies. The first body selected is the first operand, and the rest of the bodies - as a second.
 
 ----- How to install the macro -----
 GDB-macro files should be put in a folder:
